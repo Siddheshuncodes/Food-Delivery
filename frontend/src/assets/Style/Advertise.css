@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+}
+
+.advertise-main1st {
+    /* border: 1px solid black; */
+    height: 40vw;
+    width: 100vw;
+    display: flex;
+    background-color: rgba(231, 43, 22, 0.993);
+    background-image: linear-gradient(160deg, rgba(231, 231, 22, 0.799) 0%, rgba(255, 255, 0, 0.793) 100%);
+
+}
+
+.advertise-search {
+    /* border: 1px solid red; */
+    height: 25vw;
+    width: 60vw;
+    margin: auto;
+    position: relative;
+}
+
+.search-head {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .advertise-address {
+        border: 1px solid green;
+        border-radius: 5px !important;
+        margin-left: 4vw !important;
+        position: absolute;
+    }
+
+}
+
+.advertise-address {
+    /* border: 1px solid green; */
+    height: 13vw;
+    border-radius: 20px;
+    width: 50vw;
+    /* margin-left:5vw; */
+    position: absolute;
+    bottom: 3vw;
+    background-color: #fff;
+}
+
+.address-flex {
+    display: flex;
+}
+
+.address-delivery-1 {
+    /* border: 1px solid pink; */
+    border-radius: 10px;
+    margin: 25px;
+    padding: 0 10px;
+    height: 40px;
+    width: 10vw;
+    display: flex;
+    background-color: rgba(210, 129, 23, 0.138);
+}
+
+.address-delivery-2 {
+    /* border: 1px solid pink; */
+    border-radius: 10px;
+    margin: 25px;
+    padding: 0 10px;
+    height: 40px;
+    width: 10vw;
+    display: flex;
+}
+
+.address-dimg {
+    height: 40px;
+}
+
+.address-pimg {
+    height: 25px;
+    margin-top: 7px;
+}
+
+.address-head1 {
+    margin: 8px;
+    color: rgb(255, 115, 0);
+}
+
+.address-head2 {
+    margin: 8px;
+    color: rgb(120, 116, 116);
+}
+
+.advertise-hr {
+    /* color: rgba(167, 161, 161, 0.682); */
+    border: 0.2px solid rgba(201, 194, 194, 0.682);
+    width: 48vw;
+    margin: auto;
+}
+
+.search-locationimg {
+    height: 25px;
+    position: absolute;
+    top: 8.5vw;
+    left: 25px;
+}
+
+.search-input {
+    position: relative;
+    border: none;
+    margin: 30px 20px;
+    padding: 0 40px;
+    background-color: rgba(250, 239, 37, 0.167);
+    border-radius: 10px;
+    height: 40px;
+    width: 35vw;
+    font-size: 17px;
+}
+
+.search-searchimg {
+    height: 25px;
+    position: absolute;
+    top: 8.5vw;
+    left: 45vw;
+}
+
+.search-btn {
+    padding: 12px 30px;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(255, 34, 0, 0.808);
+    font-weight: bold;
+    font-size: large;
+}
+
+.search-btn:hover {
+    cursor: pointer;
+}
+
+.advertise-img {
+    /* border: 1px solid blue; */
+    height: 20vw;
+    width: 30vw;
+    margin: 20vw auto 0 -15vw;
+
+}
