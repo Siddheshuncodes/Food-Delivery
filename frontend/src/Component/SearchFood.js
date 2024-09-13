@@ -19,10 +19,10 @@ function SearchFood() {
 
         </button>
           <button className="rounded-full bg-yellow-500 hover:bg-Yellow-700 text-white px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-                <i class="fa-solid fa-angle-right"></i>  
+                <i class="fa-solid fa-angle-left"></i>  
           </button>
             <button className="rounded-full bg-yellow-500 hover:bg-yellow-700 text-white px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
-            <i class="fa-solid fa-angle-left"></i>  
+            <i class="fa-solid fa-angle-right"></i>  
             </button>
         </div>
       </div>

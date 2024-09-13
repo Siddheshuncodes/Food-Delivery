@@ -26,14 +26,33 @@
     color: #fff;
 }
 
-@media screen and (max-width: 600px) {
+.search-para{
+    font-size: 20px;
+    margin: 10px 0;
+}
+@media screen and (max-width: 900px) {
     .advertise-address {
         border: 1px solid green;
         border-radius: 5px !important;
-        margin-left: 4vw !important;
+        /* margin-left: 4vw !important; */
         position: absolute;
     }
 
+    .search-head {
+        font-size: 20px !important;
+        font-weight: bold;
+    }
+    .search-para{
+        font-size: 15px !important;
+        margin: 10px 0;
+    }
+    .advertise-search {
+        /* border: 1px solid red; */
+        height: 25vw;
+        width: 60vw;
+        margin: auto;
+        position: relative;
+    }
 }
 
 .advertise-address {

@@ -12,7 +12,7 @@ export default function Advertise() {
             <div className='advertise-main1st'>
                 <div className='advertise-search'>
                     <h1 className='search-head'>Are You Straving?</h1>
-                    <p style={{ fontSize: '20px', margin: '10px 0' }}>Within a few clicks , find meals that are accessible near you</p>
+                    <p className='search-para' >Within a few clicks , find meals that are accessible near you</p>
                     <div className='advertise-address'>
                         <div className='address-flex'>
                             <div className='address-delivery-1'>
